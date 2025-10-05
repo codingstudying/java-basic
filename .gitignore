@@ -1,29 +1,28 @@
-### IntelliJ IDEA ###
+# ============================
+# IntelliJ IDEA / JetBrains
+# ============================
+.idea/
+*.iml
+
+# ============================
+# Build directories
+# ============================
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+build/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+target/
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# ============================
+# OS / System files
+# ============================
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Logs / Temporary files
+# ============================
+*.log
+*.tmp
+*.bak
