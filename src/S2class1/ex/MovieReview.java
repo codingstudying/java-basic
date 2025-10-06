@@ -1,0 +1,8 @@
+package S2class1.ex;
+
+public class MovieReview {
+    String title;
+    String review;
+}
+
+//25.10.01 김영한의 실전 자바 기본편 - 섹션2.클래스와 데이터 - 11.문제와 풀이
